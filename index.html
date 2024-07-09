@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Soundbox - Wireless Headphones</title>
 </head>
 <body>
+    <header> 
+        <a href="#" class="logo"><i class="bx bx-headphone"></i> Soundbox</a>
+        <ul class="Navegacao">
+            <li><a href="#overview"> Overview </a></li>
+            <li><a href="#specs"    >    Specs</a></li>
+            <li><a href="#reviews"  >  Reviews</a></li>
+            <li><a href="#contact"  >  Contact</a></li>
+            <li><a href="#about" >    About Us</a></li>
+        </ul>
+        <div class="header-icons">
+            <i class="bx bx-cart-alt"></i>
+            <div id="menu" ><i class="bx bx-menu"></i></div>
+        </div>
+    </header>
+    <!-- section for small images  -->
+    <section class="thumbnail-section">
+        <div class="thumbnail" onclick="slider('img/product1.png')">
+            <img src="img/product1.png" alt="Headphone 1">
+        </div>
+        <div class="thumbnail" onclick="slider('img/product2.png')">
+            <img src="img/product2.png" alt="Headphone 2">
+        </div>
+        <div class="thumbnail" onclick="slider('img/product3.png')">
+            <img src="img/product3.png" alt="Headphone 3">
+        </div>
+    </section>
+
+    <section class="home" id="Overview">
+        <div class="home-img">
+            <img  id="main-image" src="img/product1.png" alt="Headphone 1">
+        </div>
+
+        <div class="home-text">
+            <h1>Headset <br>Wireless</h1>
+            <h5>Transforming how you listen.</h5>
+            <h3>£199,00</h3>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </section>
+
+    <section class="specs" id="specs">
+        <h2>Technical Specifications </h2>
+        <ul>
+            <li>Bluetooth 5.0</li>
+            <li>Noise Cancellation</li>
+            <li>20 hours of battery life</li>
+            <li>Compatible with iOS and Android</li>
+        </ul>
+    </section>
+
+    
     
 </body>
 </html>
