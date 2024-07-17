@@ -18,7 +18,7 @@ Inspiration
 
 This project was inspired by Danilo Paixão's video, with modifications to enhance design and functionality.
 
-Watch Danilo Paixão's inspirational video
+Watch Danilo Paixão's inspirational video: https://www.youtube.com/watch?v=gB1Rvs1OPIc&list=PLJl2enY-ZBmQCtJ1ggYdSqjuzW2oSkKAh
 
 Technologies Used
 
