@@ -61,7 +61,51 @@
         </ul>
     </section>
 
-    
-    
+    <section class="Reviews" id="Reviews">
+        <h2>What our Custumers say</h2>
+        <div class="Reviews">
+            <p>"The best Headphone I've ever used! incredible sound and very comfortable." </p>
+            <span>-Satisfied Custumer.</span>
+        </div>
+        <div class="Reviews">
+            <p>The battery lasts a long time, and nose Cancellation is excellent.</p>
+            <span>-Other Custumer.</span>
+        </div>
+    </section>
+
+    <section class="Contact">
+    <h2>Contact us</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+ 
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+       
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+</section>
+
+<section class="about" id="about">
+    <h2>About us</h2>
+    <p>We are a company dedicated to bringing the best audio products to you. <br>With years of experience, we know exactly that our custumers need.</p>
+</section>
+
+<script>
+    function slider(imageSrc){
+        document.getElementById('main-image').src = imageSrc;
+    }
+    let menu = document.querySelector('#menu');
+    let navbar = document.querySelector('.navigation');
+
+   menu.onclick =  () => {
+     menu.classList.toggle('bx-x');
+     navbar.classList.toggle('open');
+     
+   }
+
+</script>
 </body>
 </html>
