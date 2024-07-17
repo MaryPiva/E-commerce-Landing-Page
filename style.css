@@ -83,4 +83,63 @@ header{
     position: absolute;
     top: 120px;
     left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+.thumbnail img{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.thumbnail img:hover{
+    transform: scale(1.1);
+}
+
+/*Home section*/
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding-top: 100px;
+}
+.home-text h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.home-text h5{
+    color: #ffffff99;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.home-text h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.home-img img{
+    max-width: 100%;
+    width: 28rem;
+    height: auto;
+    margin-left: 25%;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 25px;
+    transition: all 0.55s ease;
+    color: #fff;
 }
