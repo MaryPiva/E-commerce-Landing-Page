@@ -143,3 +143,10 @@ header{
     transition: all 0.55s ease;
     color: #fff;
 }
+.btn:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: #000;
+}
+/*Specifications Section*/
+
