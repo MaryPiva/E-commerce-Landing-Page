@@ -149,4 +149,72 @@ header{
     color: #000;
 }
 /*Specifications Section*/
-
+.specs{
+    background-color: var(--beige-color);
+    color: var(--black-color);
+    padding: 300px 8%;
+    text-align: center;
+}
+.specs h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.specs ul{
+    list-style-type: none;
+    padding: 0;
+}
+.specs ul li{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+/*reviews section*/
+.reviews{
+    background-color: #fcfcfc;
+    color: var(--black-color);
+    padding: 300px 8%;
+    text-align: center;
+}
+.reviews h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.review{
+    margin-bottom: 40px;
+}
+.review p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.review span{
+    font-size: 1rem;
+    font-style: italic;
+    color: #777;
+}
+/*contact section*/
+.contact{
+    background-color: var(--beige-color);
+    color: var(--black-color);
+    padding: 300px 8%;
+    text-align: center;
+}
+.contact h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.contact form{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact form label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--black-color);
+}
+.contact form input,
+.contact form textarea{
+    
+}
