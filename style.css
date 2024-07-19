@@ -50,7 +50,7 @@ header{
     display: flex;
 }
 .navegacao a{
-    color: #fcfcfc;
+    color:#fcfcfc;
     font-size: var(--p-font);
     font-weight: 500;
     margin: 0 20px;
@@ -113,14 +113,16 @@ header{
     font-size: 4rem;
     line-height: 1.2;
     margin-bottom: 10px;
+    color:black;
 }
 .home-text h5{
-    color: #ffffff99;
+    color:black;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .home-text h3{
+    color:black;
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -137,16 +139,16 @@ header{
     padding: 15px 50px;
     font-size: 16px;
     font-weight: 500;
-    background: transparent;
+    background:fixed ;
     border: solid 2px #fff;
     border-radius: 25px;
     transition: all 0.55s ease;
-    color: #fff;
+    color:;
 }
 .btn:hover{
-    background: #fff;
+    background:#4742424d;
     border: 2px solid #fff;
-    color: #000;
+    color:black;
 }
 /*Specifications Section*/
 .specs{
