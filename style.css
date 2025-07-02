@@ -178,12 +178,13 @@ header {
 .contact,
 .about {
   text-align: center;
-  padding: 200px 8%;
+  padding: 300px 8% ;
 }
 
 .specs {
   background-color: var(--beige-color);
   color: var(--black-color);
+ 
 }
 
 .reviews {
@@ -199,6 +200,7 @@ header {
 .about {
   background-color: var(--other-color);
   color: var(--black-color);
+
 }
 
 .specs h2,
