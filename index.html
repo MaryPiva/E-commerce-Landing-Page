@@ -11,100 +11,88 @@
     <title>Soundbox - Wireless Headphones</title>
 </head>
 <body>
-    <header> 
-        <a href="#" class="logo"><i class="bx bx-headphone"></i> Soundbox</a>
-        <ul class="navegacao">
-            <li><a href="#overview"> Overview </a></li>
-            <li><a href="#specs"    >    Specs</a></li>
-            <li><a href="#reviews"  >  Reviews</a></li>
-            <li><a href="#contact"  >  Contact</a></li>
-            <li><a href="#about" >    About Us</a></li>
-        </ul>
-        <div class="header-icons">
-            <i class="bx bx-cart-alt"></i>
-            <div id="menu" ><i class="bx bx-menu"></i></div>
-        </div>
-    </header>
-    <!-- section for small images  -->
-    <section class="thumbnail-section">
-        <div class="thumbnail" onclick="slider('img/product1.png')">
-            <img src="img/product1.png" alt="Headphone 1">
-        </div>
-        <div class="thumbnail" onclick="slider('img/product2.png')">
-            <img src="img/product2.png" alt="Headphone 2">
-        </div>
-        <div class="thumbnail" onclick="slider('img/product3.png')">
-            <img src="img/product3.png" alt="Headphone 3">
-        </div>
-    </section>
+  <header>
+    <a href="#" class="logo"><i class="bx bx-headphone"></i> Soundbox</a>
+    <ul class="navegacao">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#specs">Specs</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+    <div class="header-icons">
+      <i class="bx bx-cart-alt"></i>
+      <div id="menu"><i class="bx bx-menu"></i></div>
+    </div>
+  </header>
 
-    <section class="home" id="overview">
-        <div class="home-img">
-            <img  id="main-image" src="img/product1.png" alt="Headphone 1">
-        </div>
+  <section class="thumbnail-section">
+    <div class="thumbnail" onclick="slider('img/product1.png')">
+      <img src="img/product1.png" alt="Headphone 1" />
+    </div>
+    <div class="thumbnail" onclick="slider('img/product2.png')">
+      <img src="img/product2.png" alt="Headphone 2" />
+    </div>
+    <div class="thumbnail" onclick="slider('img/product3.png')">
+      <img src="img/product3.png" alt="Headphone 3" />
+    </div>
+  </section>
 
-        <div class="home-text">
-            <h1>Headset <br>Wireless</h1>
-            <h5>Transforming how you listen.</h5>
-            <h3>£199,00</h3>
-            <a href="#" class="btn">Buy Now</a>
-        </div>
-    </section>
+  <section class="home" id="overview">
+    <div class="home-img">
+      <img id="main-image" src="img/product1.png" alt="Headphone 1" />
+    </div>
+    <div class="home-text">
+      <h1>Headset <br />Wireless</h1>
+      <h5>Transforming how you listen.</h5>
+      <h3>£199.00</h3>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+  </section>
 
-    <section class="specs" id="specs">
-        <h2>Technical Specifications </h2>
-        <ul>
-            <li>Bluetooth 5.0</li>
-            <li>Noise Cancellation</li>
-            <li>20 hours of battery life</li>
-            <li>Compatible with iOS and Android</li>
-        </ul>
-    </section>
+  <section class="specs" id="specs">
+    <h2>Technical Specifications</h2>
+    <ul>
+      <li>Bluetooth 5.0</li>
+      <li>Noise Cancellation</li>
+      <li>20 hours of battery life</li>
+      <li>Compatible with iOS and Android</li>
+    </ul>
+  </section>
 
-    <section class="reviews" id="reviews">
-        <h2>What our Cust0mers say:</h2>
-        <div class="review">
-            <p>"The best Headphone I've ever used! incredible sound and very comfortable." </p>
-            <span>-Satisfied Custumer.</span>
-        </div>
-        <div class="review">
-            <p>"The battery lasts a long time, and noise Cancellation is excellent."</p>
-            <span>-Other Custumer.</span>
-        </div>
-    </section>
+  <section class="reviews" id="reviews">
+    <h2>What our Customers say:</h2>
+    <div class="review">
+      <p>"The best headphone I've ever used! Incredible sound and very comfortable."</p>
+      <span>- Satisfied Customer.</span>
+    </div>
+    <div class="review">
+      <p>"The battery lasts a long time, and noise cancellation is excellent."</p>
+      <span>- Another Customer.</span>
+    </div>
+  </section>
 
-    <section class="contact" id="contact">
-    <h2>Contact us</h2>
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
     <form action="#">
-        <label for="name">Name:</label>
-        <input type="name" id="name" name="name" required>
- 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-       
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" required></textarea>
-        <button type="submit" class="btn">Send</button>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn">Send</button>
     </form>
-</section>
+  </section>
 
-<section class="about" id="about">
-    <h2>About us:</h2>
-    <p>We are a company dedicated to bringing the best audio products to you. <br>With years of experience, we know exactly that our custumers need.</p>
-</section>
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We are a company dedicated to bringing the best audio products to you. With years of experience, we know exactly what our customers need.</p>
+  </section>
 
-<script>
-    function slider(imageSrc){
-        document.getElementById('main-image').src = imageSrc;
-    }
-   let menuIcon = document.querySelector('#menu i');
-let navbar = document.querySelector('.navegacao');
-
-document.querySelector('#menu').onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('open');
-}
-
-</script>
+<script src="script.js"></script>
 </body>
 </html>
