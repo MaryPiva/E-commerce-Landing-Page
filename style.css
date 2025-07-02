@@ -34,6 +34,9 @@ header{
     padding: 20px 8%;
     background-color: var(--bg-color);
 }
+.header-icons i:not(#menu) {
+    display: none;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -281,12 +284,9 @@ header{
         position: relative;
         z-index: 1002;
     }
-    .header-icons i{
-        display: none;
-    }
-    .header-icons #menu{
-        display: block;
-    }
+    .header-icons i:not(.bx-menu) {
+    display: none;
+}
     .header{
         padding: 15px 8%;
     }
@@ -295,6 +295,8 @@ header{
         text-align: center;
         padding-top: 80px;
         color: var(--black-color);
+        display: flex;
+        flex-direction: column;
 
     }
     
@@ -309,13 +311,14 @@ header{
         font-size: 2rem;
     }
     .btn {
-        padding: 15px 50px;
+    padding: 15px 50px;
     font-size: 1rem;
     background-color: var(--text-color);
     color: var(--bg-color);
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 
     }
 
